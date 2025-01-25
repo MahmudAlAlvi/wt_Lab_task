@@ -1,0 +1,455 @@
+.main-container {
+    min-height: 800px;
+    width: 1100px;
+    margin: 0 auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+
+    
+}
+
+.container{
+    min-height: 345px; /*345*/
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    display: flex ;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+/*
+.box{
+    height: 100px;
+    width: 800px;
+    background-color: aqua;
+    font-size: 40pt;
+}
+*/
+/* Box 1 Styling */
+/* Box 1 Styling */
+/* Box 1 Styling */
+/* Box 1 Styling */
+
+/* Search Box Container */
+/* Search Box Container */
+.search-box { 
+    height: 150px;
+    width: 800px;
+    background-color: rgba(206, 202, 202, 0.282);
+    font-size: 16pt;  /* Adjusted font size for better readability */
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Center the items horizontally */
+    justify-content: space-evenly;  /* Space elements evenly within the box */
+    padding: 10px;
+    box-sizing: border-box;  /* Ensure padding is included within width/height */
+}
+
+.search-box .header h3 {
+    margin: 0;
+    font-size: 24pt;  /* Adjust title size */
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+.search-box .search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;  /* Align input and button in the center */
+    gap: 10px;  /* Space between input and button */
+}
+
+.search-box .search-form input[type="text"] {
+    width: 250px;  /* Adjust width of input box */
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.search-box .search-form input[type="submit"] {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.search-box .search-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+
+
+
+
+
+.add-book-box {
+    height: auto;
+    width: 750px; /* Adjusted width for compact size */
+    background-color: #7cf3e9; /* Light grey background */
+    border: 2px solid #ccc; /* Subtle border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Inner spacing for content */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center the content */
+    font-size: 16px; /* Adjusted font size */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+.add-book-box h3 {
+    font-size: 20px; /* Larger font size for the title */
+    font-weight: bold; /* Bold title */
+    color: #333; /* Dark grey color */
+    margin-bottom: 20px; /* Space below the title */
+    text-align: center; /* Center align title */
+}
+
+.add-book-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center; /* Center align form inputs */
+}
+
+.add-book-box form input[type="text"],
+.add-book-box form input[type="number"],
+.add-book-box form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center; /* Center align input text */
+}
+
+.add-book-box form input[type="submit"] {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.add-book-box form input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.add-book-box form input::placeholder {
+    color: #aaa; /* Grey color for placeholder text */
+    font-size: 14px;
+}
+
+
+/* Box 2 - All Book List */
+/* Box 2 - All Book List */
+.box-all-books {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.box-all-books h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Button Styling */
+#showBooksBtn {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#showBooksBtn:hover {
+    background-color: #0056b3;
+}
+
+/* List Styling */
+.box-all-books ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.box-all-books ul li {
+    padding: 8px;
+    margin: 5px 0;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.box-all-books ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+}
+
+.box-all-books ul li:hover {
+    background-color: #d6d8db;
+}
+
+
+
+
+
+
+.container1{
+
+    min-height: 155px;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    display: flex ;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.box1{
+    height: 150px;
+    width: 260px;
+    background-color: rgb(248, 162, 238);
+    font-size: 40pt;
+}
+
+.container2{
+
+    min-height: 500px;
+    width: 800px;
+    margin: 0 auto;
+    border: 2px solid black;
+    display: flex ;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.box2-large{
+    height: auto;
+    width: 900px;
+    background-color: rgb(248, 178, 162);
+    /*font-size: 40pt;*/
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 16pt; 
+    text-align: left; 
+  
+
+
+}
+/*
+.box2-small{
+    height: 600px;
+    width: 300px;
+    background-color: rgb(176, 248, 162);
+    font-size: 40pt;
+}*/
+.box2-small {
+    height: auto; /* Content-driven height */
+    width: 300px;
+    background-color: rgb(176, 248, 162); /* Original background color */
+    border: 2px solid #ccc; /* Border for distinction */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Inner spacing */
+    font-size: 16pt; /* Adjusted font size */
+    overflow-y: auto; /* Scroll if content exceeds height */
+    max-height: 600px; /* Limit maximum height */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.box2-small ul {
+    list-style-type: none; /* No bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+.box2-small ul li {
+    background-color: #ffffff; /* White background for each token */
+    border: 1px solid #ddd; /* Border for each token */
+    padding: 12px; /* Increased padding for better spacing */
+    margin-bottom: 10px; /* Space between tokens */
+    text-align: center; /* Center-align text */
+    border-radius: 5px; /* Rounded corners for token boxes */
+    font-size: 14pt; /* Slightly larger font size */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for tokens */
+}
+   
+
+    
+    
+
+
+
+
+/*.box3-left{
+    height: 1100px;
+    width: 150px;
+    background-color: rgb(248, 206, 206);
+    font-size: 40pt;
+
+    
+}*/
+
+.box3-left {
+    height: 1400px; /* Adjust the height based on your container */
+    width: 150px;  /* Make sure it adjusts to the width of the container */
+    background-color: rgb(248, 206, 206);
+   /* background-color: rgb(206, 248, 206);*/
+    font-size: 16pt;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-y: auto;
+}
+
+.box3-left h2 {
+    font-size: 18pt;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: left; /* Align the title to the left */
+    color: #333;
+}
+
+.box3-left ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.box3-left ul li {
+    font-size: 14pt;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left; /* Align token names to the left */
+}
+
+
+.box3-right{
+    height: 1450px;
+    width: 150px;
+    background-color:  rgb(248, 206, 206);
+    font-size: 40pt;
+    position: relative;
+    text-align: center; 
+    background-image: url('images/id.png'); 
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+   
+}
+
+.box-image {
+    width: 100%; 
+    height: auto;
+    max-height: 100%; 
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/* form details*/
+
+form {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px; 
+}
+
+input[type="text"],
+input[type="date"],
+input[type="submit"] {
+    width: 100%; 
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+/* book title style*/
+
+#book_title {
+    color: #999; 
+    font-size: 16px; 
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+#book_title option:first-child {
+    color: #aaa; 
+}
+
+#book_title:focus {
+    color: black; 
+    border-color: #66afe9; 
+    outline: none; 
+}
+
+
+
+
+
+
+
+
+
+
